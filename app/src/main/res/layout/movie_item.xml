@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/movie_studio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/movie_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/movie_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:padding="8dp" />
+
+    <ImageView
+        android:id="@+id/movie_delete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_delete"
+        android:padding="8dp" />
+</LinearLayout>
+
+
+<!--<androidx.cardview.widget.CardView-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_margin="8dp"-->
+<!--    app:cardCornerRadius="12dp"-->
+<!--    app:cardElevation="6dp">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="10dp">-->
+
+<!--        &lt;!&ndash; Movie Poster &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/moviePoster"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            android:src="@drawable/placeholder_image" />-->
+
+<!--        &lt;!&ndash; Movie Details &ndash;&gt;-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:orientation="vertical"-->
+<!--            android:paddingStart="10dp">-->
+
+<!--            &lt;!&ndash; Movie Title &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/movieTitle"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Movie Title"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+<!--            &lt;!&ndash; Movie Studio &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/movieStudio"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Studio Name"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textColor="@android:color/darker_gray"-->
+<!--                android:paddingTop="4dp"/>-->
+
+<!--            &lt;!&ndash; Movie Rating &ndash;&gt;-->
+<!--            <TextView-->
+<!--                android:id="@+id/movieRating"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Rating: 8.5"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/holo_blue_dark"-->
+<!--                android:paddingTop="6dp"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--        &lt;!&ndash; Delete Button &ndash;&gt;-->
+<!--        <ImageView-->
+<!--            android:id="@+id/deleteButton"-->
+<!--            android:layout_width="40dp"-->
+<!--            android:layout_height="40dp"-->
+<!--            android:padding="8dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:src="@drawable/ic_delete"-->
+<!--            android:contentDescription="Delete Movie"/>-->
+<!--    </LinearLayout>-->
+<!--</androidx.cardview.widget.CardView>-->
